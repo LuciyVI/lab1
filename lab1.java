@@ -42,11 +42,14 @@ public static double calc_pi2() {
     
            
         result+=(1.0/((i)*(i=i+1)*(i=i+1))-(1.0/(i)*(i=i+1)*(i=i+1)));         
+        System.out.printf("\n%d",i);
         
     }; 
+
     // System.out.printf("\n%d",i+1);
-    System.out.printf("\n%d",i);
+    
     exit=exit*10;
+    
     
     }while(exit<50000);
     
